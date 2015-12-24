@@ -13,7 +13,7 @@ complete<- function (directory, id=1:332)
       #compute no of cc
       nocc<- c(nocc, sum(complete.cases(data))) 
     }
-  #Return a data frame where the first column is the name of the file and the 
+  #Return a data frame where the  first column is the name of the file and the 
   #second column is the number of complete cases.
   data.frame(id=id,nobs=nocc)
 }
