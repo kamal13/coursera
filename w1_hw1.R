@@ -22,6 +22,6 @@ tgap <-t[32:61]
 mean <- sum(tgap)/length(tgap)
 #maximum ozone value in the month of May
 omax <- may[which.max(data[1:31,1])]
-#data frame where Ozone values are above 31 and Temp values are above 90. What is the mean of Solar.R in this subset?
+#data frame where Ozone values are above 31 & Temp values are above 90. What is the mean of Solar.R in this subset?
 d1 <- subset(data, Ozone>31 & Temp>90)
 meen <- mean(d1[,2])
