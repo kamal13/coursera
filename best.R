@@ -1,6 +1,6 @@
 # state<-"TX"
 # outcome<- "heart failure"
-# source("best.R")
+# source("best.R") 
 # best("TX","heart failure")
 best<-function(state, outcome)
 {
